@@ -2,10 +2,9 @@
   "name": "express-nps-calculator",
   "version": "1.0.0",
   "description": "Projeto construido em Express(NodeJS) para realizar cálculos NPS.",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node-dev src/server.ts"
   },
   "repository": {
     "type": "git",

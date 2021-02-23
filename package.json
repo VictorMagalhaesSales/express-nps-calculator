@@ -4,7 +4,8 @@
   "description": "Projeto construido em Express(NodeJS) para realizar cálculos NPS.",
   "main": "src/server.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "repository": {
     "type": "git",

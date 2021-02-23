@@ -2,8 +2,9 @@
   "name": "express-nps-calculator",
   "version": "1.0.0",
   "description": "Projeto construido em Express(NodeJS) para realizar cálculos NPS.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "dev": "ts-node-dev src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/VictorMagalhaesSales/express-nps-calculator#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.31"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.5"
   }
 }

@@ -12,12 +12,12 @@ export class UserRepository extends Repository<User> {
         
         const user = this.create({name, email});
         await this.save(user);
-        return response.json(user);
+        return response.status(201).json(user);
     }
 
     async listAll(response: Response) {
         let usuarios = await this.find();
-        return response.json(usuarios);
+        return response.status(200).json(usuarios);
     }
 
 }

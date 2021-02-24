@@ -12,12 +12,12 @@ export class SurveyRepository extends Repository<Survey> {
         
         const survey = this.create({title, description});
         await this.save(survey);
-        return response.json(survey);
+        return response.status(201).json(survey);
     }
 
     async listAll(response: Response) {
         let usuarios = await this.find();
-        return response.json(usuarios);
+        return response.status(200).json(usuarios);
     }
 
 }

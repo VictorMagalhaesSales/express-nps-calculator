@@ -10,7 +10,7 @@
   ![SQLite](https://img.shields.io/badge/-SQLite-black?style=flat-square&logo=sqlite)
   ![TypeORM](https://img.shields.io/badge/-TypeORM-black?style=flat-square&logo=typeorm)
 
-This project is a back-end application that consists of calculating the company's NPS. In it, we register users, register surveys, send e-mail to users to answer satisfaction surveys and with this we can perform the NPS calculation.
+This project is a back-end application that consists of calculating the company's NPS. In it, we register users, register surveys, **send e-mail** to users to answer satisfaction surveys and with this we can perform the NPS calculation.
 
 The Net Promoter Score is a type of metric created to measure customer satisfaction, as: "From 0 to 10, how much you recommend our company?"
 

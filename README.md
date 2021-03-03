@@ -14,10 +14,6 @@ This project is a back-end application that consists of calculating the company'
 
 The Net Promoter Score is a type of metric created to measure customer satisfaction, as: "From 0 to 10, how much you recommend our company?"
 
-<div align="center">
-  <img align="center" alt="" title="preview" src="email.png" width="80%">
-</div>
-
 ## Technologies and tools used:
 
 - Typescript

@@ -5,10 +5,11 @@
 
 ## Rest API for NPS (Net Promoter Score)
 
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
-  ![NodeJS](https://img.shields.io/badge/-NodeJS-black?style=flat-square&logo=node.js)
-  ![SQLite](https://img.shields.io/badge/-SQLite-black?style=flat-square&logo=sqlite)
-  ![TypeORM](https://img.shields.io/badge/-TypeORM-black?style=flat-square&logo=typeorm)
+![Express](https://img.shields.io/badge/-Express-black?style=flat-square&logo=express&logoColor=white)
+![NodeJS](https://img.shields.io/badge/-NodeJS-white?style=flat-square&logo=node.js&color=339933&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=flat-square&logo=typescript&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-black?style=flat-square&logo=sqlite&color=003B57)
+![TypeORM](https://img.shields.io/badge/-TypeORM-black?style=flat-square&logo=typeorm)
 
 This project is a back-end application that consists of calculating the company's NPS. In it, we register users, register surveys, **send e-mail** to users to answer satisfaction surveys and with this we can perform the NPS calculation.
 

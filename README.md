@@ -1,17 +1,11 @@
-
-<div align="center">
-  <p>Project developed during the Nodejs trail in 4th edition of Next Level Week, created by Rocketseat.</p>
-</div>
-
 ## Rest API for NPS (Net Promoter Score)
-
 ![Express](https://img.shields.io/badge/-Express-black?style=flat-square&logo=express&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/-NodeJS-white?style=flat-square&logo=node.js&color=339933&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=flat-square&logo=typescript&logoColor=white)
 ![SQLite](https://img.shields.io/badge/-SQLite-black?style=flat-square&logo=sqlite&color=003B57)
 ![TypeORM](https://img.shields.io/badge/-TypeORM-black?style=flat-square&logo=typeorm)
 
-This project is a back-end application that consists of calculating the company's NPS. In it, we register users, register surveys, **send e-mail** to users to answer satisfaction surveys and with this we can perform the NPS calculation.
+Project developed during the Nodejs trail in 4th edition of Next Level Week, created by Rocketseat. This project is a back-end application that consists of calculating the company's NPS. In it, we register users, register surveys, **send e-mail** to users to answer satisfaction surveys and with this we can perform the NPS calculation.
 
 The Net Promoter Score is a type of metric created to measure customer satisfaction, as: "From 0 to 10, how much you recommend our company?"
 
